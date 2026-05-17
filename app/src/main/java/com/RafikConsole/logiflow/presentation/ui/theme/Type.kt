@@ -1,4 +1,4 @@
-package com.RafikConsole.logiflow.ui.theme
+package com.RafikConsole.logiflow.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

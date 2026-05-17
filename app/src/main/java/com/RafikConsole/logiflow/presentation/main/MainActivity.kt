@@ -1,4 +1,4 @@
-package com.RafikConsole.logiflow
+package com.RafikConsole.logiflow.presentation.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.RafikConsole.logiflow.ui.theme.LogiFlowTheme
+import com.RafikConsole.logiflow.presentation.ui.theme.LogiFlowTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
