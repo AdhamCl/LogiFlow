@@ -19,6 +19,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             LogiFlowTheme {
+
+
+
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Android",

@@ -2,6 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -56,4 +58,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Declare the Firebase BoM *once* using the latest version
+    implementation(platform("com.google.firebase:firebase-bom:34.13.0")) // Using the latest version you provided
+
+    // Add the Firestore Kotlin extension library - no version needed when using the BoM
 }
